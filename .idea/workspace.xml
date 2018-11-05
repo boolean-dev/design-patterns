@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="174774f9-5343-45e7-b109-eea0354b39f7" name="Default" comment="" />
+    <list default="true" id="174774f9-5343-45e7-b109-eea0354b39f7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/ch2-observer/.gitignore" afterPath="$PROJECT_DIR$/ch2-observer/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/CurrentDisplay.java" afterPath="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/CurrentDisplay.java" />
+      <change beforePath="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/ForecastDisplay.java" afterPath="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/ForecastDisplay.java" />
+      <change beforePath="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/Oberver.java" afterPath="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/Oberver.java" />
+      <change beforePath="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/StatisDisplay.java" afterPath="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/StatisDisplay.java" />
+      <change beforePath="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/WeatherData.java" afterPath="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/WeatherData.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ch1/target/" />
@@ -50,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/Oberver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <caret line="4" column="65" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -66,13 +73,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherData.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WeatherData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/WeatherData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="418">
+              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,8 +90,18 @@
       <file leaf-file-name="CurrentDisplay.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/CurrentDisplay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="9" column="75" lean-forward="true" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch2-observer/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -91,8 +110,8 @@
       <file leaf-file-name="StatisDisplay.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/StatisDisplay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="9" column="72" lean-forward="false" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -101,18 +120,8 @@
       <file leaf-file-name="ForecastDisplay.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/ForecastDisplay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/Observer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            <state relative-caret-position="171">
+              <caret line="9" column="72" lean-forward="false" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -127,6 +136,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -154,13 +166,14 @@
         <option value="$PROJECT_DIR$/ch1-duck/src/main/java/com/tao/design/duck/Duck.java" />
         <option value="$PROJECT_DIR$/ch1-duck/src/main/java/com/tao/design/main/main.java" />
         <option value="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/Ch2ObserverApplication.java" />
-        <option value="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/Oberver.java" />
         <option value="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/DisplayElement.java" />
+        <option value="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/Subject.java" />
+        <option value="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/Oberver.java" />
         <option value="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/CurrentDisplay.java" />
         <option value="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/ForecastDisplay.java" />
         <option value="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/StatisDisplay.java" />
-        <option value="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/Subject.java" />
         <option value="$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/WeatherData.java" />
+        <option value="$PROJECT_DIR$/ch2-observer/.gitignore" />
       </list>
     </option>
   </component>
@@ -418,6 +431,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -657,12 +671,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541385845032</updated>
-      <workItem from="1541385851419" duration="8727000" />
+      <workItem from="1541385851419" duration="9451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8727000" />
+    <option name="totallyTimeSpent" value="9451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -685,10 +699,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22761194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -883,10 +897,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/Oberver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <caret line="4" column="65" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -899,45 +921,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/CurrentDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/ForecastDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="171">
+          <caret line="9" column="72" lean-forward="false" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/StatisDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="171">
+          <caret line="9" column="72" lean-forward="false" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/WeatherData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="418">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2-observer/src/main/java/com/tao/ch2observer/weather/CurrentDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="75" lean-forward="true" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2-observer/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

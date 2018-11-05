@@ -7,7 +7,7 @@ public class ForecastDisplay implements Oberver, DisplayElement {
     }
 
     @Override
-    public void update() {
+    public void update(float temperature, float humidity, float pressure) {
 
     }
 }

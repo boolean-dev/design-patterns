@@ -1,9 +1,12 @@
 package com.tao.ch2observer.java;
 
+import java.util.Observable;
+import java.util.Observer;
+
 /**
  * 气压预报
  */
-public class ForecastDisplay implements Oberver, DisplayElement {
+public class ForecastDisplay implements Observer, DisplayElement {
 
     private float lastPressure = 400f;
     private float pressure;
@@ -25,17 +28,20 @@ public class ForecastDisplay implements Oberver, DisplayElement {
     @Override
     public void display() {
         if (lastPressure > pressure) {
-            System.out.println("天气将更加下雨了，请注意收被子\n\n");
+            System.out.println("起亚变低了\n\n");
         }else if(lastPressure < pressure) {
-            System.out.println("天气将更热，请注意中暑\n\n");
+            System.out.println("气压变高了\n\n");
         }else {
-            System.out.println("天气将不发生改变\n\n");
+            System.out.println("气压不发生改变\n\n");
         }
     }
 
     @Override
-    public void update(float temperature, float humidity, float pressure) {
-        this.pressure = pressure;
-        display();
+    public void update(Observable o, Object arg) {
+        if (o instanceof WeatherData) {
+            WeatherData weatherData = (WeatherData) o;
+            this.pressure = weatherData.getPressure();
+            display();
+        }
     }
 }

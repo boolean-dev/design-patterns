@@ -1,9 +1,12 @@
 package com.tao.ch2observer.java;
 
+import java.util.Observable;
+import java.util.Observer;
+
 /**
  * 温度统计接口
  */
-public class StatisDisplay implements Oberver, DisplayElement {
+public class StatisDisplay implements Observer, DisplayElement {
 
     private float maxTemper = 38.0f;
     private float minTemper = 25.0f;
@@ -32,21 +35,22 @@ public class StatisDisplay implements Oberver, DisplayElement {
     }
 
     @Override
-    public void update(float temperature, float humidity, float pressure) {
+    public void update(Observable o, Object arg) {
+        if (o instanceof WeatherData) {
+            WeatherData weatherData = (WeatherData) o;
+            currTemper = weatherData.getTemperature();
 
-        currTemper = temperature;
+            avgTemper = (sumTemper+weatherData.getTemperature()) / ++count;
 
-        avgTemper = (sumTemper+temperature) / ++count;
+            if (weatherData.getTemperature() > maxTemper) {
+                maxTemper = weatherData.getTemperature();
+            }
 
-        if (temperature > maxTemper) {
-            maxTemper = temperature;
+            if (weatherData.getTemperature() < minTemper) {
+                minTemper = weatherData.getTemperature();
+            }
+
+            display();
         }
-
-        if (temperature < minTemper) {
-            minTemper = temperature;
-        }
-
-        display();
-
     }
 }

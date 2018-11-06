@@ -10,8 +10,6 @@ import java.util.Observer;
 public class Ch2ObserverApplication {
 
 	public static void main(String[] args) {
-		Observer observer;
-		Observable observable;
 		SpringApplication.run(Ch2ObserverApplication.class, args);
 	}
 }

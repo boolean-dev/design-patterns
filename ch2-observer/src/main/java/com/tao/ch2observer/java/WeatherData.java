@@ -31,6 +31,7 @@ public class WeatherData extends Observable {
         this.temperature = temperature;
         this.humidity = humidity;
         this.pressure = pressure;
+        super.setChanged();
         super.notifyObservers();
     }
 

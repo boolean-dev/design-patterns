@@ -8,11 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ch1-duck" />
         <module name="ch2-observer" />
+        <module name="ch3-decoration" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ch1-duck" target="1.8" />
       <module name="ch2-observer" target="1.8" />
+      <module name="ch3-decoration" target="1.8" />
+      <module name="design" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

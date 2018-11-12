@@ -14,6 +14,9 @@
 	<modules>
 		<module>ch1-duck</module>
 		<module>ch2-observer</module>
+		<module>ch3-decoration</module>
+		<module>ch4-factory</module>
+		<module>ch5-singleton</module>
 	</modules>
 
 	<parent>
@@ -30,6 +33,16 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 
 	</dependencies>
 

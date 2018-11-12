@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/ch2-observer/pom.xml" />
         <option value="$PROJECT_DIR$/ch3-decoration/pom.xml" />
         <option value="$PROJECT_DIR$/factory/pom.xml" />
+        <option value="$PROJECT_DIR$/ch5-singleton/pom.xml" />
+        <option value="$PROJECT_DIR$/ch4-factory/pom.xml" />
       </list>
     </option>
   </component>

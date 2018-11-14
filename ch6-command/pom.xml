@@ -3,28 +3,19 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.tao</groupId>
-	<artifactId>design</artifactId>
+	<groupId>com.tao.patterns</groupId>
+	<artifactId>ch6-command</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>jar</packaging>
 
-	<name>design</name>
+	<name>ch6-command</name>
 	<description>Demo project for Spring Boot</description>
 
-	<modules>
-		<module>ch1-duck</module>
-		<module>ch2-observer</module>
-		<module>ch3-decoration</module>
-		<module>ch4-factory</module>
-		<module>ch5-singleton</module>
-		<module>ch6-command</module>
-	</modules>
-
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.0.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>com.tao</groupId>
+		<artifactId>design</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
 	</parent>
 
 	<properties>
@@ -44,7 +35,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
 	</dependencies>
 
 	<build>

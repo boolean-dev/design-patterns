@@ -1,5 +1,12 @@
 package com.tao.patterns.ch6command.simple;
 
+
+/**
+ * 项目需求
+ *
+ * 窗口中有几个按钮，用户可自定义按钮的功能
+ * 本例中按钮的功能有窗口最小化、打开帮助文档
+ */
 public class Main {
 
     public static void main(String[] args) {

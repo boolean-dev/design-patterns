@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ch1-duck" />
+        <module name="ch11-proxy" />
         <module name="ch2-observer" />
         <module name="ch3-decoration" />
         <module name="ch4-factory" />
@@ -17,11 +18,12 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ch1-duck" target="1.8" />
+      <module name="ch11-proxy" target="1.8" />
       <module name="ch2-observer" target="1.8" />
       <module name="ch3-decoration" target="1.8" />
       <module name="ch4-factory" target="1.5" />
-      <module name="ch5-singleton" target="1.8" />
-      <module name="ch6-command" target="1.8" />
+      <module name="ch5-singleton" target="1.5" />
+      <module name="ch6-command" target="1.5" />
       <module name="design" target="1.8" />
       <module name="factory" target="1.8" />
     </bytecodeTargetLevel>

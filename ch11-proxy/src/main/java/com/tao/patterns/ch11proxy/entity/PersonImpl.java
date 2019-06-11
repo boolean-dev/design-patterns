@@ -58,14 +58,4 @@ public class PersonImpl implements Person {
         return rating / ratingCount;
     }
 
-    @Override
-    public String toString() {
-        return "PersonImpl{" +
-                "name='" + name + '\'' +
-                ", gender='" + gender + '\'' +
-                ", interests='" + interests + '\'' +
-                ", rating=" + rating +
-                ", ratingCount=" + ratingCount +
-                '}';
-    }
 }
